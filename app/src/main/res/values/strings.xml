@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VoiceToMQTT</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Настройки подключения</string>
+    <string name="sync_header">TTS</string>
+
+    <!-- Messages Preferences -->
+    <string name="mqtt_server">MQTT server</string>
+    <string name="command_topic">Command topic</string>
+    <string name="status_topic">Status topic</string>
+    <string name="username">UserName</string>
+    <string name="pass">Password</string>
+
+    <!-- Sync Preferences -->
+    <string name="tts">Озвучивать</string>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.VoicToMQTT.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.VoicToMQTT.AppWidgetContainer"
+    android:background="@android:color/transparent">
+
+    <Button
+        android:id="@+id/mic"
+        android:layout_width="63dp"
+        android:layout_height="51dp"
+        android:background="@mipmap/gray_foreground" />
+</RelativeLayout>

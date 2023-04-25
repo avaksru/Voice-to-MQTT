@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:defaultValue="tcp://192.168.0.10:1883"
+            app:key="mqtt_server"
+            app:title="@string/mqtt_server"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:defaultValue="/order"
+            app:key="command_topic"
+            app:title="@string/command_topic"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:defaultValue="/report"
+            app:key="status_topic"
+            app:title="@string/status_topic"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:defaultValue="guest"
+            app:key="username"
+            app:title="@string/username"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:defaultValue="guest"
+            app:key="pass"
+            app:title="@string/pass"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="tts"
+            app:title="@string/tts" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
